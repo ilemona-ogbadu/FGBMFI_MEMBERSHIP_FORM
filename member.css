@@ -1,5 +1,35 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-body {
+	border: 2px solid red;
+	display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.main-head {
+ border: 2px solid green;
+ display: flex;
+}
+
+.image{
+ margin-top: 1.5rem;
+}
+
+.head-tags{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-left: 1rem;
+}
+
+.member{
+ font-weight: bolder;
+ border: 2px solid blue;
 }
