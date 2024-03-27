@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+:root{
+	 --main-txt-color: brown;
+		--main-bg-color:brown;
+}
+
 .main-body {
 	border: 2px solid red;
 	display: flex;
@@ -13,7 +18,7 @@
 }
 
 .main-head {
- border: 2px solid green;
+ /* border: 2px solid green; */
  display: flex;
 }
 
@@ -22,7 +27,7 @@
 }
 
 .head-tags{
- display: flex;
+	display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
@@ -30,6 +35,14 @@
 }
 
 .member{
+	font-size: xx-large;
  font-weight: bolder;
- border: 2px solid blue;
+	letter-spacing: 2px;
+}
+
+.writeup{
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column;
+
 }
